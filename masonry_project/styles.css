@@ -1,0 +1,45 @@
+/* Masonry Layout project stylesheet 
+	10/17/24 */
+
+body {
+	background-color: lightpink;
+}
+
+main {
+	border: 4px black;
+	max-width: 90%;
+	margin: 0px auto;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	text-shadow: black 2px 1px 3px;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+section#gallery {
+	column-count: 3;
+	column-gap: 24px;
+}
+
+div.item {
+	margin-bottom: 15px;
+}
+
+ /*Media query for tablet or smaller screens */
+@media only screen and (max-width: 760px) {
+	section#gallery {
+		column-count: 2;
+		column-gap: 12px;
+	}
+}
+
+
+
+
